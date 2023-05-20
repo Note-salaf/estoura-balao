@@ -1,0 +1,268 @@
+#balao {
+    position: absolute;
+    left: 45%;
+    top: 420px;
+    width: 200px;
+    height: auto;
+}
+body {
+    background-image: url("ceu.jpg");
+    background-size: cover;
+    background-position: center;
+    background-size: 120%;
+   
+}
+#pontos{
+    position: absolute;
+    left: 1200px;
+    top: 0;
+    width: 100px;
+    height: auto;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 40px;
+}
+#modal1 {
+    width: 500px;
+    height: 250px;
+    background-color: blueviolet;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    color: white;
+    text-align: center;
+}
+#botFechaModal1 {
+    position: absolute;
+    left: 93%;
+    top: 10;
+}
+#miniBalao1 {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 150px;
+    height: auto;
+}
+#miniBalao1:hover {
+    opacity: 0.7;
+}
+#miniBalao2:hover {
+    opacity: 0.7;
+}
+#miniBalao2 {
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    width: 80px;
+    height: auto;
+}
+#miniDiscoVoador {
+    position: absolute;
+    left: 350px;
+    top: 120px;
+    width: 80px;
+    height: auto;
+    visibility: hidden;
+}
+#balaoEscolhido {
+    position: absolute;
+    left: 150px;
+    width:200px;
+    background-color: aqua;
+    color: blueviolet;
+    border-radius: 5px;
+}
+#escolhePersonagem {
+    position: absolute;
+    left: 1200px;
+    top: 590px;
+    width: 150px;
+    height: auto;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+#cxBarraProgresso {
+    box-sizing: border-box;
+    position: relative;
+    left: 40%;
+    width: 400px;
+    border: 1px solid black;
+
+}
+#barraProgresso {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 0%;
+    background-color: orange;
+}
+#tutorial {
+    visibility: hidden;
+    position: absolute;
+    left: 1000px;
+    top: 420px;
+    background-color: /*rgba(0, 0, 0, 0);*/ rgb(128, 128, 128, 0.5);
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+#menino {
+    height: 100%;
+}
+#msgExplicativa {
+    position: absolute;
+    left: 120px;
+    top: 5px;
+    background-color: aqua;
+    height: auto;
+    width: 150px;
+    border-radius: 10px;
+    padding: 5px;
+}
+#botTutorial {
+    position: absolute;
+    left: 1020px;
+    top: 590px;
+    width: 150px;
+    height: auto;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+#setaParaBaixo {
+    position: absolute;
+    left: 220px;
+    top: 120px;
+   }
+#tutorialClicaBalao {
+    visibility: hidden;
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    background-color: /*rgba(0, 0, 0, 0);*/ rgb(128, 128, 128, 0.5);
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+}
+#msgExplicativaClicaBalao {
+    position: absolute;
+    left: 120px;
+    top: 5px;
+    background-color: aqua;
+    height: auto;
+    width: 150px;
+    border-radius: 10px;
+    padding: 5px;
+}
+#botProximoTutorial1 {
+    position: absolute;
+    left: 210px;
+    top: 220px;
+    background-color: rgb(9, 100, 143);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#miniBalao1Tutorial {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 150px;
+    height: auto;
+}
+#setaParaBaixoTutorialClicaBalao {
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+#cxRecompensas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: auto;
+}
+#trofeu-ouro {
+    visibility: hidden;
+    height: 40px;
+}
+#trofeu-ouro2 {
+    visibility: hidden;
+    height: 40px;
+}
+#trofeu-ouroG {
+    position: absolute;
+    left: 470px;
+    visibility: hidden;
+}
+#desbloqDiscoVoador {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    background-color: rgb(6, 109, 75);
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    left: 550px;
+    top: 200px;
+    visibility: hidden;
+
+}
+/*Créditos finais*/
+.credits {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 800px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .credits p {
+    animation: credit-scroll 20s linear infinite;
+    height: 800px;
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  @keyframes credit-scroll {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }
+  #botReinicia {
+    text-align: center;
+    position: absolute;
+    top:50px;
+    color: white;
+    border: 1px solid white;
+    height: 20px;
+    width: 80px;
+    border-radius: 15px;
+    padding: 5px;
+    z-index: 3;
+  }
+  #botReinicia:hover {
+    background-color: white;
+    color: black;
+  }
