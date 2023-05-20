@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoura balão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="pontos"></div>
+    <div id="cxBarraProgresso">
+        <div id="barraProgresso">0%</div>
+    </div>
+    <audio id="explode">
+        <source src="140705__dreeke__champaign-cork.mp3" type="audio/mpeg" >
+      </audio>
+    <img src="balao.gif" alt="balao" id="balao">
+    <!-- Modal para escolha de balões -->
+    <dialog id="modal1">
+        <input type="button" value="x" id="botFechaModal1">
+        <h1>Escolha um balão</h1>
+        <div id="balaoEscolhido"></div>
+        <img src="balao.gif" alt="balao" id="miniBalao1">
+        <img src="balao-rosa.gif" alt="balao" id="miniBalao2">
+        <img src="animated-spaceship-image-0037.gif" alt="disco voador" id="miniDiscoVoador">
+    </dialog>
+    <!-- Modal tutorial para escolher balão -->
+    <div id="tutorial">
+        <div id="msgExplicativa">Use esse botão para escolher um balão.</div>
+        <img src="menino.png" alt="menino" id="menino">
+        <img src="seta-para-baixo.gif" alt="seta-para-baixo" id="setaParaBaixo">
+    </div>
+    <!-- Modal para clicar no balão -->
+    <div id="tutorialClicaBalao">
+        <div id="msgExplicativaClicaBalao">Clique no balão para marcar pontos.</div>
+        <img src="balao.gif" alt="balao" id="miniBalao1Tutorial">
+        <img src="menino.png" alt="menino" id="menino">
+        <img src="seta-para-baixo.gif" alt="seta-para-baixo" id="setaParaBaixoTutorialClicaBalao">
+        <div id="botProximoTutorial1">próximo>></div>
+    </div>
+
+    <div id="desbloqDiscoVoador">
+        <h1>Novo item desbloqueado!</h1>
+        <img src="animated-spaceship-image-0037.gif" alt="disco voador" id="discoVoador">
+        
+    </div>
+    <div id="escolhePersonagem">Escolher balão</div>
+</div>
+<div id="botTutorial">Tutorial</div>
+<div id="cxRecompensas">
+<img src="trofeu-ouro.gif" alt="trofeu-ouro" id="trofeu-ouro">
+<img src="trofeu-ouro.gif" alt="trofeu-ouro" id="trofeu-ouro2">
+<img src="trofeu-ouroG-removebg-preview.png" alt="trofeu-ouroG" id="trofeu-ouroG">
+
+
+</div>
+<audio id="ganhaTrofeu">
+    <source src="685660__arcana23__diamond-collect.wav" type="audio/wav" >
+</audio>
+<audio id="somFase1" loop>
+    <source src="somFase1.mp3" type="audio/mpeg">
+</audio>
+<audio id="somFase2" loop>
+    <source src="somFase2.mp3" type="audio/mpeg">
+</audio>
+<audio id="somFase3" loop>
+    <source src="somFase3.mp3" type="audio/mpeg">
+</audio>
+
+<div id="botReinicia">Reiniciar</div>
+<div class="credits" id="credits">
+        <p> Parabéns, você terminou o jogo!!!<br>
+        Desenvolvedor JS - Papai <br>
+        Líder de testes - Dan<br>
+         </p>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
